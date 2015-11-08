@@ -1,4 +1,7 @@
 # vim
 
 ## Plugins
-code_complete  nerdtree  tagbar  YouCompleteMe
+- code_complete
+- nerdtree
+- tagbar
+- YouCompleteMe
