@@ -11,4 +11,9 @@ command! Status echo "All systems are go!"
 if has("autoload")
 	filetype plugin indent on
 endif
+
+"vim-instant-markdown
 filetype plugin on
+
+"Configuración del editor
+set colorcolumn=80

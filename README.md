@@ -28,6 +28,10 @@ git commit -m 'instalando fugitive'
 
 ## Configuraciones por plugin
 ### vim-instant-markdown
+
+Permite editar archivos markdown en vim y ver en el navegador los cambior sin
+tener que recargar la pagina.
+
 ```shell
 $ sudo npm -g install instant-markdown-d
 $ sudo apt-get install xdg-utils
