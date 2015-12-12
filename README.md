@@ -1,26 +1,35 @@
 # vim
 ## Instalación:
 
-    git clone git://github.com/nelstrom/dotvim.git ~/.vim
+```shell
+$ git clone git://github.com/nelstrom/dotvim.git ~/.vim
+```
 
 Create symlinks:
 
-    ln -s ~/.vim/vimrc ~/.vimrc
-    ln -s ~/.vim/gvimrc ~/.gvimrc
+```shell
+$ ln -s ~/.vim/vimrc ~/.vimrc
+$ ln -s ~/.vim/gvimrc ~/.gvimrc
+```
 
 Switch to the `~/.vim` directory, and fetch submodules:
 
-    cd ~/.vim
-    git submodule init
-    git submodule update
+```shell
+cd ~/.vim
+git submodule init
+git submodule update
+```
 
 Instalación de un nuevo plugin
+```shell
+git submodule add https://github.com/tpope/vim-fugitive.git bundle/fugitive
+git commit -m 'instalando fugitive'	
+```
 
-    git submodule add https://github.com/tpope/vim-fugitive.git bundle/fugitive
-    git commit -m 'instalando fugitive'	
-
-## Plugins
-- code_complete
-- nerdtree
-- tagbar
-- YouCompleteMe
+## Configuraciones por plugin
+### vim-instant-markdown
+```shell
+$ sudo npm -g install instant-markdown-d
+$ sudo apt-get install xdg-utils
+habilitar 'filetype plugin on' en .vimrc
+```

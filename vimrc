@@ -11,3 +11,4 @@ command! Status echo "All systems are go!"
 if has("autoload")
 	filetype plugin indent on
 endif
+filetype plugin on
