@@ -16,4 +16,8 @@ endif
 filetype plugin on
 
 "Configuración del editor
-set colorcolumn=80
+  set colorcolumn=80
+  "Colapsa funciones
+  set foldmethod=indent "syntax
+  set foldlevel=0
+  set foldclose=all
