@@ -20,3 +20,5 @@ filetype plugin on
   "Colapsa funciones
   set foldmethod=indent "syntax
   set foldlevel=0
+"vim-airline
+  set laststatus=2
