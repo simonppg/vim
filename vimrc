@@ -20,4 +20,3 @@ filetype plugin on
   "Colapsa funciones
   set foldmethod=indent "syntax
   set foldlevel=0
-  set foldclose=all
