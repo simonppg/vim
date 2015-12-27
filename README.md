@@ -22,7 +22,7 @@ git submodule update
 
 Instalación de un nuevo plugin
 ```shell
-git submodule add https://github.com/tpope/vim-fugitive.git ~/.vim/bundle/fugitive
+git submodule add https://github.com/tpope/vim-fugitive.git bundle/fugitive
 git commit -m 'instalando fugitive'	
 ```
 
