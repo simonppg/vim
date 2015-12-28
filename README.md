@@ -2,7 +2,7 @@
 ## Instalación:
 
 ```shell
-$ git clone git://github.com/nelstrom/dotvim.git ~/.vim
+$ git clone git@github.com:simonppg/vim.git ~/.vim
 ```
 
 Create symlinks:
@@ -37,3 +37,11 @@ $ sudo npm -g install instant-markdown-d
 $ sudo apt-get install xdg-utils
 habilitar 'filetype plugin on' en .vimrc
 ```
+### tagbar
+
+Necesitas tener instalado `exuberant-ctags`
+
+```shell
+$ sudo apt-get install exuberant-ctags
+```
+
