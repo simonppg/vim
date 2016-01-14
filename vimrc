@@ -4,13 +4,16 @@ call pathogen#helptags()
 set hidden
 set number
 set vb t_vb=
-set ts=8 sts=8 sw=8 expandtab
+set tabstop=4
 syntax on
 command! Status echo "All systems are go!"
 
 if has("autoload")
 	filetype plugin indent on
 endif
+
+set list
+set listchars=tab:▸\ ,eol:¬
 
 "vim-instant-markdown
 filetype plugin on
