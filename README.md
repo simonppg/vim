@@ -10,6 +10,7 @@ Create symlinks:
 ```shell
 $ ln -s ~/.vim/vimrc ~/.vimrc
 $ ln -s ~/.vim/gvimrc ~/.gvimrc
+$ ln -s ~/.vim/config/c.comments.template ~/.vim/bundle/vim-plugins/c-support/templates/c.comments.template
 ```
 
 Switch to the `~/.vim` directory, and fetch submodules:
