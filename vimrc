@@ -20,4 +20,6 @@ filetype plugin indent on    " required|
 
 	set list
 	set listchars=tab:▸\ ,eol:¬
+"vim-gitgutter
+	set updatetime=250
 
