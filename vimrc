@@ -18,6 +18,11 @@ filetype plugin indent on    " required|
 "vim-gitgutter
 	set updatetime=250
 
+"powerline
+	set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
+	" Use 256 colours (Use this setting only if your terminal supports 256 colours)
+	set t_Co=256
+
 "vim-airline
 	set laststatus=2 " Always display the statusline in all windows
 	set showtabline=2 " Always display the tabline, even if there is only one tab
