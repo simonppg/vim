@@ -14,6 +14,9 @@ filetype plugin indent on    " required|
 	syntax on
 	set list
 	set listchars=tab:▸\ ,eol:¬
+	set hlsearch
+	highlight ColorColumn ctermbg=white "set to whatever you like
+	call matchadd('ColorColumn', '\%81v', 100) "set column nr
 
 "vim-gitgutter
 	set updatetime=250
