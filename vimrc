@@ -5,6 +5,8 @@ call vundle#begin()
 	Plugin 'airblade/vim-gitgutter'
 	Plugin 'vim-airline/vim-airline'
 	Plugin 'vim-airline/vim-airline-themes'
+	Plugin 'vim-scripts/Conque-GDB'
+	Plugin 'flazz/vim-colorschemes'
 call vundle#end()            " required
 filetype plugin indent on    " required|
 
@@ -44,3 +46,4 @@ filetype plugin indent on    " required|
 	let g:airline_right_sep = '«'
 	let g:airline_right_sep = '◀'
 
+	colorscheme matrix
