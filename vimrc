@@ -7,6 +7,8 @@ call vundle#begin()
 	Plugin 'vim-airline/vim-airline-themes'
 	Plugin 'vim-scripts/Conque-GDB'
 	Plugin 'flazz/vim-colorschemes'
+	Plugin 'pangloss/vim-javascript'
+	Plugin 'mxw/vim-jsx'
 call vundle#end()            " required
 filetype plugin indent on    " required|
 
