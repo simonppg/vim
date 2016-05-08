@@ -9,6 +9,7 @@ call vundle#begin()
 	Plugin 'flazz/vim-colorschemes'
 	Plugin 'pangloss/vim-javascript'
 	Plugin 'mxw/vim-jsx'
+	Plugin 'scrooloose/nerdtree'
 call vundle#end()            " required
 filetype plugin indent on    " required|
 
