@@ -10,6 +10,7 @@ call vundle#begin()
 	Plugin 'pangloss/vim-javascript'
 	Plugin 'mxw/vim-jsx'
 	Plugin 'scrooloose/nerdtree'
+	Plugin 'alvan/vim-closetag'
 call vundle#end()            " required
 filetype plugin indent on    " required|
 
