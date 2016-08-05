@@ -11,15 +11,19 @@ call vundle#begin()
 	Plugin 'mxw/vim-jsx'
 	Plugin 'scrooloose/nerdtree'
 	Plugin 'alvan/vim-closetag'
+	Plugin 'altercation/vim-colors-solarized'
+	Plugin 'jwalton512/vim-blade'
+	Plugin 'majutsushi/tagbar'
 call vundle#end()            " required
 filetype plugin indent on    " required|
 
 "Mis configuraciones
-	set number
+	"set number
 	syntax on
-	set list
+	"set list
 	set listchars=tab:▸\ ,eol:¬
 	set hlsearch
+	set scrolloff=5
 
 "vim-gitgutter
 	set updatetime=250
@@ -47,4 +51,5 @@ filetype plugin indent on    " required|
 	let g:airline_right_sep = '«'
 	let g:airline_right_sep = '◀'
 
+	set background=dark
 	colorscheme matrix
