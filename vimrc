@@ -17,9 +17,11 @@ filetype plugin indent on    " required|
 "Mis configuraciones
 	set number
 	syntax on
-	set list
-	set listchars=tab:▸\ ,eol:¬
+	"set list
+	"set listchars=tab:▸\ ,eol:¬
 	set hlsearch
+	"snipets
+	nnoremap ,html :-1read $HOME/.vim/snippets/skeleto.html<CR>3jwf>a
 
 "vim-gitgutter
 	set updatetime=250
@@ -48,3 +50,5 @@ filetype plugin indent on    " required|
 	let g:airline_right_sep = '◀'
 
 	colorscheme matrix
+	set path+=**
+	set wildmenu
