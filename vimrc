@@ -21,9 +21,10 @@ filetype plugin indent on    " required|
 	"set number
 	syntax on
 	"set list
-	set listchars=tab:▸\ ,eol:¬
+	"set listchars=tab:▸\ ,eol:¬
 	set hlsearch
-	set scrolloff=5
+	"snipets
+	nnoremap ,html :-1read $HOME/.vim/snippets/skeleto.html<CR>3jwf>a
 
 "vim-gitgutter
 	set updatetime=250
@@ -53,3 +54,5 @@ filetype plugin indent on    " required|
 
 	set background=dark
 	colorscheme matrix
+	set path+=**
+	set wildmenu
