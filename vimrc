@@ -14,7 +14,7 @@ set nocompatible
 filetype off
 " only for cygwin
 if has('win32unix')
-    "...
+    set rtp+=/cygdrive/c/Users/$USER/vimfiles/bundle/Vundle.vim
 " only for linux		
 elseif has('unix')		
     set rtp+=~/.vim/bundle/Vundle.vim
