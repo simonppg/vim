@@ -1,25 +1,27 @@
 # vim
-## Instalación en Linux:
+## Install in Linux
 
 ```shell
 $ git clone git@github.com:simonppg/vim.git ~/.vim
 $ ln -s ~/.vim/vimrc ~/.vimrc
 ```
 
-## Configuraciones por plugin
+## Configurations by plugin
 ### tagbar
 
-Necesitas tener instalado `exuberant-ctags`
+Need to install `exuberant-ctags`.
 
 ```shell
 $ sudo apt-get install exuberant-ctags
 ```
 ### cscope
 
-Instala cscope con este comando:
+Need to install `cscope`.
 
 ```shell
 $ sudo apt-get install cscope
 ```
 
-Debes crear una base de datos en el directorio raiz del proyecto, `cscope -R`, para salir de la interfaz usa CTRL-D, para evitar la interfaz de cscope agrega la bandera `-b`. Siempre debes iniciar vim desde el directorio raiz del proyecto.
+You need to create a data base in the root directory of the project running `cscope -R` at the end the cscope will display a CLI where you can search C symbols, press `CTRL-D` to quit from the CLI, if you want to skip the CIL and just create the data base use the flag `-b`.
+
+NOTE: To use cscope plugin from vim, vim need to open from the root directory.
