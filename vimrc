@@ -1,7 +1,11 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Sections:
-"    -> Plugins setup
-"    -> General
+"   -> Plugins setup
+"   -> General
+"   -> VIM user interface
+"   -> Colors and Fonts
+"   ->Files, backups and undo
+"   ->Text, tab and indent relate
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -15,27 +19,27 @@ filetype off
 " only for cygwin
 if has('win32unix')
     set rtp+=/cygdrive/c/Users/$USER/vimfiles/bundle/Vundle.vim
-" only for linux		
-elseif has('unix')		
+    " only for linux
+elseif has('unix') || has('mac')
     set rtp+=~/.vim/bundle/Vundle.vim
 endif
 
 call vundle#begin()
-	Plugin 'airblade/vim-gitgutter'
-	Plugin 'vim-scripts/Conque-GDB'
-	Plugin 'flazz/vim-colorschemes'
-	Plugin 'pangloss/vim-javascript'
-	Plugin 'mxw/vim-jsx'
-	Plugin 'alvan/vim-closetag'
-	Plugin 'altercation/vim-colors-solarized'
-	Plugin 'jwalton512/vim-blade'
-	Plugin 'majutsushi/tagbar'
+    Plugin 'airblade/vim-gitgutter'
+    Plugin 'vim-scripts/Conque-GDB'
+    Plugin 'flazz/vim-colorschemes'
+    Plugin 'pangloss/vim-javascript'
+    Plugin 'mxw/vim-jsx'
+    Plugin 'alvan/vim-closetag'
+    Plugin 'altercation/vim-colors-solarized'
+    Plugin 'jwalton512/vim-blade'
+    Plugin 'majutsushi/tagbar'
 call vundle#end()
 " Enable filetype plugins and indent both are required for the use of Vundle.vim
 filetype plugin indent on
 
 " vim-gitgutter configuration
-	set updatetime=250
+set updatetime=250
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
@@ -114,7 +118,7 @@ syntax enable
 
 " Enable 256 colors palette in Gnome Terminal
 if $COLORTERM == 'gnome-terminal'
-	set t_Co=256
+    set t_Co=256
 endif
 
 try
