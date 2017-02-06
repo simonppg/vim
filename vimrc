@@ -4,8 +4,8 @@
 "   -> General
 "   -> VIM user interface
 "   -> Colors and Fonts
-"   ->Files, backups and undo
-"   ->Text, tab and indent relate
+"   -> Files, backups and undo
+"   -> Text, tab and indent relate
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -14,27 +14,18 @@
 " Be iMproved, required
 set nocompatible
 
-" Required for the use of Vundle.vim
-filetype off
-" only for cygwin
-if has('win32unix')
-    set rtp+=/cygdrive/c/Users/$USER/vimfiles/bundle/Vundle.vim
-    " only for linux
-elseif has('unix') || has('mac')
-    set rtp+=~/.vim/bundle/Vundle.vim
-endif
-
-call vundle#begin()
-    Plugin 'airblade/vim-gitgutter'
-    Plugin 'vim-scripts/Conque-GDB'
-    Plugin 'flazz/vim-colorschemes'
-    Plugin 'pangloss/vim-javascript'
-    Plugin 'mxw/vim-jsx'
-    Plugin 'alvan/vim-closetag'
-    Plugin 'altercation/vim-colors-solarized'
-    Plugin 'jwalton512/vim-blade'
-    Plugin 'majutsushi/tagbar'
-call vundle#end()
+call plug#begin()
+    Plug 'airblade/vim-gitgutter'
+    Plug 'vim-scripts/Conque-GDB'
+    Plug 'flazz/vim-colorschemes'
+    Plug 'pangloss/vim-javascript', {'for': 'javascript'}
+    Plug 'mxw/vim-jsx', {'for': 'javascript'}
+    Plug 'alvan/vim-closetag'
+    Plug 'altercation/vim-colors-solarized'
+    Plug 'jwalton512/vim-blade', {'for': 'php'}
+    Plug 'majutsushi/tagbar'
+    Plug 'kien/ctrlp.vim'
+call plug#end()
 " Enable filetype plugins and indent both are required for the use of Vundle.vim
 filetype plugin indent on
 
