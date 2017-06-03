@@ -25,6 +25,7 @@ call plug#begin()
     Plug 'jwalton512/vim-blade', {'for': 'php'}
     Plug 'majutsushi/tagbar'
     Plug 'kien/ctrlp.vim'
+    Plug 'w0rp/ale'
 call plug#end()
 " Enable filetype plugins and indent both are required for the use of Vundle.vim
 filetype plugin indent on
