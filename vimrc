@@ -27,6 +27,14 @@ call plug#begin()
     Plug 'kien/ctrlp.vim'
     Plug 'w0rp/ale'
     Plug 'tpope/vim-fugitive'
+    Plug 'StanAngeloff/php.vim'
+    "Laravel
+    Plug 'tpope/vim-dispatch'             "| Optional
+    Plug 'tpope/vim-projectionist'        "|
+    Plug 'noahfrederick/vim-composer'     "|
+    Plug 'noahfrederick/vim-laravel'
+    "Typescript
+    Plug 'leafgarland/typescript-vim'
 call plug#end()
 " Enable filetype plugins and indent both are required for the use of Vundle.vim
 filetype plugin indent on
