@@ -86,7 +86,7 @@ set whichwrap+=<,>,h,l
 set ignorecase
 
 " Highlight search results
-set hlsearch
+" set hlsearch
 
 " Makes search act like search in modern browsers
 set incsearch
@@ -168,7 +168,6 @@ set wrap "Wrap lines
 set number
 "set list
 set listchars=tab:▸\ ,eol:¬
-set hlsearch
 
 " My snipets
 nnoremap ,html :-1read $HOME/.vim/snippets/skeleto.html<CR>3jwf>a
