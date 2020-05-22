@@ -171,3 +171,9 @@ set listchars=tab:▸\ ,eol:¬
 
 " My snipets
 nnoremap ,html :-1read $HOME/.vim/snippets/skeleto.html<CR>3jwf>a
+
+:map <F2> <ESC>oHola<ESC>jk
+
+function! EchoTest()
+    echo "this is a test"
+endfunction
