@@ -39,6 +39,8 @@ call plug#end()
 " Enable filetype plugins and indent both are required for the use of Vundle.vim
 filetype plugin indent on
 
+set paste
+
 " vim-gitgutter configuration
 set updatetime=250
 
