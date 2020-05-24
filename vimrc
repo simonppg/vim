@@ -36,6 +36,11 @@ call plug#begin()
     "Typescript
     Plug 'leafgarland/typescript-vim'
 call plug#end()
+"ctrlp.vim config
+let g:ctrlp_max_files=0
+let g:ctrlp_max_depth=40
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+
 " Enable filetype plugins and indent both are required for the use of Vundle.vim
 filetype plugin indent on
 
@@ -179,3 +184,11 @@ nnoremap ,html :-1read $HOME/.vim/snippets/skeleto.html<CR>3jwf>a
 function! EchoTest()
     echo "this is a test"
 endfunction
+
+" Config netrw
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+let g:netrw_browse_split = 4
+let g:netrw_altv = 1
+let g:netrw_winsize = 25
+let g:netrw_preview = 1
