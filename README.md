@@ -13,6 +13,7 @@ Need to install `exuberant-ctags`.
 
 ```shell
 $ sudo apt-get install exuberant-ctags
+$ ctags -R .
 ```
 ### cscope
 
