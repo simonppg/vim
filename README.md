@@ -13,7 +13,7 @@ Need to install `exuberant-ctags`.
 
 ```shell
 $ sudo apt-get install exuberant-ctags
-$ ctags -R .
+$ ctags -R . # Generate tags recursively in current directory
 ```
 ### cscope
 
