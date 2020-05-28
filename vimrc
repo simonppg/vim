@@ -28,6 +28,8 @@ call plug#begin()
     Plug 'w0rp/ale'
     Plug 'tpope/vim-fugitive'
     Plug 'StanAngeloff/php.vim'
+    Plug 'luochen1990/rainbow'
+    let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowToggle
     "Laravel
     Plug 'tpope/vim-dispatch'             "| Optional
     Plug 'tpope/vim-projectionist'        "|
