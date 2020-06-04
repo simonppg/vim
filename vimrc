@@ -39,7 +39,7 @@ call plug#begin()
     "Typescript
     Plug 'leafgarland/typescript-vim'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    let g:coc_global_extensions = ['coc-tsserver']
+    let g:coc_global_extensions = ['coc-tsserver', 'coc-eslint']
 call plug#end()
 "ctrlp.vim config
 let g:ctrlp_max_files=0
