@@ -98,7 +98,7 @@ set whichwrap+=<,>,h,l
 set ignorecase
 
 " Highlight search results
-" set hlsearch
+set hlsearch
 
 " Makes search act like search in modern browsers
 set incsearch
