@@ -29,6 +29,7 @@ call plug#begin()
     Plug 'tpope/vim-fugitive'
     Plug 'StanAngeloff/php.vim'
     Plug 'luochen1990/rainbow'
+    Plug 'nathanaelkane/vim-indent-guides'
     let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowToggle
     "Laravel
     Plug 'tpope/vim-dispatch'             "| Optional
@@ -346,3 +347,7 @@ nnoremap <silent> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
+
+" Config vim-ident-guides
+let g:indent_guides_enable_on_vim_startup = 1
+
