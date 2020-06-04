@@ -165,9 +165,9 @@ set expandtab
 " Be smart when using tabs ;)
 set smarttab
 
-" 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
+" 1 tab == 2 spaces
+set shiftwidth=2
+set tabstop=2
 
 " Linebreak on 500 characters
 set lbr
@@ -180,7 +180,8 @@ set wrap "Wrap lines
 " Uncategorized config
 set number
 "set list
-set listchars=tab:▸\ ,eol:¬
+set listchars=tab:▸\ ,eol:¬,space:·
+"set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
 
 " My snipets
 nnoremap ,html :-1read $HOME/.vim/snippets/skeleto.html<CR>3jwf>a
