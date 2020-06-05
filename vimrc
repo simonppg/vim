@@ -39,7 +39,8 @@ call plug#begin()
     "Typescript
     Plug 'leafgarland/typescript-vim'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    let g:coc_global_extensions = ['coc-tsserver', 'coc-eslint']
+    " Vue
+    Plug 'leafOfTree/vim-vue-plugin'
 call plug#end()
 "ctrlp.vim config
 let g:ctrlp_max_files=0
@@ -201,6 +202,10 @@ let g:netrw_winsize = 25
 let g:netrw_preview = 1
 
 " Cofig coc
+let g:coc_global_extensions = ['coc-tsserver', 'coc-eslint', 'coc-vetur', 'coc-emmet', 'coc-css', 'coc-highlight', 'coc-html', 'coc-json']
+" To enable highlight current symbol on CursorHold, add:
+autocmd CursorHold * silent call CocActionAsync('highlight')
+
 " TextEdit might fail if hidden is not set.
 set hidden
 
