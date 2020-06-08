@@ -66,9 +66,14 @@ set wildmenu
 " Ignore compiled files
 set wildignore+=*.o,*~
 if has('win32unix')
-    set wildignore+=.git\*,.hg\*,.svn\*
+  set wildignore+=.git\*
 elseif has("unix")
-    set wildignore+=*/.git/*,*.out
+  set wildignore+=*/.git/*
+  set wildignore+=*.out
+  set wildignore+=*/node_modules/*
+  set wildignore+=*/dist/*
+  set wildignore+=*/coverage/*
+  set wildignore+=*/.vscode/*
 endif
 
 " Always show current position
