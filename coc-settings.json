@@ -1,5 +1,6 @@
 {
   "eslint.autoFixOnSave": true,
   "emmet.showAbbreviationSuggestions": true,
-  "emmet.includeLanguages": {"vue-html": "html", "javascript": "javascriptreact"}
+  "emmet.includeLanguages": {"vue-html": "html", "javascript": "javascriptreact"},
+  "explorer.width": 30
 }
