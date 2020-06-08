@@ -8,7 +8,8 @@ let g:coc_global_extensions = [
   \'coc-highlight',
   \'coc-html',
   \'coc-json',
-  \'coc-vimlsp']
+  \'coc-vimlsp',
+  \'coc-explorer']
 
 " To enable highlight current symbol on CursorHold, add:
 autocmd CursorHold * silent call CocActionAsync('highlight')
