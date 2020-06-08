@@ -11,9 +11,6 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugins setup
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Be iMproved, required
-set nocompatible
-
 call plug#begin()
     Plug 'airblade/vim-gitgutter'
     Plug 'vim-scripts/Conque-GDB'
