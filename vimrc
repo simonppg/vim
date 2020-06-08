@@ -37,6 +37,7 @@ call plug#begin()
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Vue
     Plug 'leafOfTree/vim-vue-plugin'
+    Plug 'vim-airline/vim-airline'
 call plug#end()
 " Enable filetype plugins and indent both are required for the use of Vundle.vim
 filetype plugin indent on
