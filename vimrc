@@ -38,6 +38,8 @@ call plug#begin()
     " Vue
     Plug 'leafOfTree/vim-vue-plugin'
     Plug 'vim-airline/vim-airline'
+    "Start screen
+    Plug 'mhinz/vim-startify'
 call plug#end()
 " Enable filetype plugins and indent both are required for the use of Vundle.vim
 filetype plugin indent on
