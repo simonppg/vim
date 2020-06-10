@@ -1,16 +1,3 @@
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Sections:
-"   -> Plugins setup
-"   -> General
-"   -> VIM user interface
-"   -> Colors and Fonts
-"   -> Files, backups and undo
-"   -> Text, tab and indent relate
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Plugins setup
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 call plug#begin()
     Plug 'airblade/vim-gitgutter'
     Plug 'vim-scripts/Conque-GDB'
