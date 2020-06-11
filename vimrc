@@ -29,7 +29,6 @@ call plug#begin()
     Plug 'mhinz/vim-startify'
     Plug 'tomtom/tcomment_vim'
 call plug#end()
-" Enable filetype plugins and indent both are required for the use of Vundle.vim
 filetype plugin indent on
 
 set paste
