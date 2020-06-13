@@ -28,6 +28,8 @@ call plug#begin()
     "Start screen
     Plug 'mhinz/vim-startify'
     Plug 'tomtom/tcomment_vim'
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
 call plug#end()
 filetype plugin indent on
 
