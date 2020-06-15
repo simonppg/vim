@@ -33,8 +33,6 @@ call plug#begin()
 call plug#end()
 filetype plugin indent on
 
-set paste
-
 " vim-gitgutter configuration
 set updatetime=250
 
@@ -162,7 +160,7 @@ set smartindent
 set wrap
 
 " Uncategorized config
-set number
+set relativenumber
 "set list
 set listchars=tab:▸\ ,eol:¬,space:·
 "set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
