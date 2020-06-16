@@ -85,6 +85,11 @@ set ignorecase
 " Highlight search results
 set hlsearch
 
+" Highlight text after 80 characters
+augroup vimrc_autocmds
+  autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#111111
+  autocmd BufEnter * match OverLength /\%80v.*/
+augroup END
 " Makes search act like search in modern browsers
 set incsearch
 
