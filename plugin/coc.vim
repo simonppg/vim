@@ -11,9 +11,6 @@ let g:coc_global_extensions = [
   \'coc-vimlsp',
   \'coc-explorer']
 
-" To enable highlight current symbol on CursorHold, add:
-autocmd CursorHold * silent call CocActionAsync('highlight')
-
 " TextEdit might fail if hidden is not set.
 set hidden
 
