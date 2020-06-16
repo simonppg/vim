@@ -30,6 +30,7 @@ call plug#begin()
     Plug 'tomtom/tcomment_vim'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
+    Plug 'tpope/vim-surround'
 call plug#end()
 filetype plugin indent on
 
