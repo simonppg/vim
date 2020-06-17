@@ -1,5 +1,5 @@
 call plug#begin()
-    Plug 'airblade/vim-gitgutter'
+    Plug 'mhinz/vim-signify'
     Plug 'vim-scripts/Conque-GDB'
     Plug 'flazz/vim-colorschemes'
     Plug 'pangloss/vim-javascript', {'for': 'javascript'}
