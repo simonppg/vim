@@ -1,4 +1,5 @@
 call plug#begin()
+    Plug 'takac/vim-hardtime'
     Plug 'mhinz/vim-signify'
     Plug 'vim-scripts/Conque-GDB'
     Plug 'flazz/vim-colorschemes'
