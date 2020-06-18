@@ -1,4 +1,5 @@
 call plug#begin()
+    Plug 'jeffkreeftmeijer/vim-numbertoggle'
     Plug 'takac/vim-hardtime'
     Plug 'mhinz/vim-signify'
     Plug 'vim-scripts/Conque-GDB'
@@ -166,8 +167,9 @@ set autoindent
 set smartindent
 set wrap
 
-" Uncategorized config
-set relativenumber
+" Use hybrid line numbers
+set number relativenumber
+
 "set list
 set listchars=tab:▸\ ,eol:¬,space:·
 "set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
