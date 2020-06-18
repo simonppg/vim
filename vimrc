@@ -186,7 +186,7 @@ endfunction
 
 function! TestThis()
   !echo "Runing mocha" % "press ENTER to continue or Ctrl-C to cancel"
-  !NODE_ENV=test npx mocha -r 'ts-node/register' % --exit
+  !export NODE_ENV=test && npx mocha -r 'ts-node/register' % --exit
 endfunction
 
 nnoremap <Leader>t :call TestThis()<CR>
