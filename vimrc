@@ -193,3 +193,9 @@ function! TestThis()
 endfunction
 
 nnoremap <Leader>t :call TestThis()<CR>
+
+function! BuildThis()
+  !npm run build
+endfunction
+
+noremap <Leader>b :call BuildThis()<CR>
