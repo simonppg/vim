@@ -169,6 +169,7 @@ set wrap
 
 " Use hybrid line numbers
 set number relativenumber
+set cursorline
 
 "set list
 set listchars=tab:▸\ ,eol:¬,space:·
