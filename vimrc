@@ -173,7 +173,6 @@ set textwidth=500
 
 set autoindent
 set smartindent
-set wrap
 
 " Use hybrid line numbers
 set number relativenumber
