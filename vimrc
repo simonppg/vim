@@ -16,23 +16,28 @@ call plug#begin()
     Plug 'StanAngeloff/php.vim'
     Plug 'luochen1990/rainbow'
     Plug 'nathanaelkane/vim-indent-guides'
+
     "Laravel
     Plug 'tpope/vim-dispatch'             "| Optional
     Plug 'tpope/vim-projectionist'        "|
     Plug 'noahfrederick/vim-composer'     "|
     Plug 'noahfrederick/vim-laravel'
+
     "Typescript
     Plug 'leafgarland/typescript-vim'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
     " Vue
     Plug 'leafOfTree/vim-vue-plugin'
     Plug 'vim-airline/vim-airline'
-    "Start screen
+
+    " Vim utils
     Plug 'mhinz/vim-startify'
     Plug 'tomtom/tcomment_vim'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'tpope/vim-surround'
+    Plug 'yuttie/comfortable-motion.vim'
 call plug#end()
 filetype plugin indent on
 
