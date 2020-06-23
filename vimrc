@@ -203,3 +203,5 @@ function! BuildThis()
 endfunction
 
 noremap <Leader>b :call BuildThis()<CR>
+
+command! BufOnly silent! execute "%bd|e#|bd#"
