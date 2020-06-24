@@ -76,9 +76,6 @@ endif
 " Always show current position
 set ruler
 
-" Try keep the cursor centered
-set scrolloff=9999
-
 " Height of the command bar
 set cmdheight=1
 
