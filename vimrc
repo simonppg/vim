@@ -38,6 +38,7 @@ call plug#begin()
     Plug 'junegunn/fzf.vim'
     Plug 'tpope/vim-surround'
     Plug 'yuttie/comfortable-motion.vim'
+    Plug 'antoinemadec/coc-fzf'
 call plug#end()
 filetype plugin indent on
 
