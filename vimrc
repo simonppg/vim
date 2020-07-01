@@ -142,6 +142,8 @@ set cursorline
 set listchars=tab:▸\ ,eol:¬,space:·
 "set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
 
+set diffopt+=vertical
+
 " My snipets
 nnoremap ,html :-1read $HOME/.vim/snippets/skeleto.html<CR>3jwf>a
 
