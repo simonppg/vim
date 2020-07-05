@@ -39,4 +39,5 @@ call plug#begin()
     Plug 'tpope/vim-surround'
     Plug 'yuttie/comfortable-motion.vim'
     Plug 'antoinemadec/coc-fzf'
+    Plug 'ryanoasis/vim-devicons'
 call plug#end()
