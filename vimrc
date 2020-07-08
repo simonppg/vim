@@ -1,5 +1,7 @@
 source $HOME/.vim/plugins.vim
 
+let mapleader = ","
+
 filetype plugin indent on
 
 " vim-gitgutter configuration
@@ -166,3 +168,8 @@ endfunction
 noremap <Leader>b :call BuildThis()<CR>
 
 command! BufOnly silent! execute "%bd|e#|bd#"
+
+nnoremap <Leader>h <C-w>h
+nnoremap <Leader>j <C-w>j
+nnoremap <Leader>k <C-w>k
+nnoremap <Leader>l <C-w>l
