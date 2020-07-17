@@ -95,7 +95,7 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 try
-    colorscheme deepsea
+    colorscheme PaperColor
 catch
     colorscheme desert
 endtry
