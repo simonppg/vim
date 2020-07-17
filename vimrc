@@ -1,6 +1,6 @@
 source $HOME/.vim/plugins.vim
 
-let mapleader = ","
+let mapleader = "\<space>"
 
 filetype plugin indent on
 
