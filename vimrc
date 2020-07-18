@@ -146,11 +146,6 @@ set listchars=tab:▸\ ,eol:¬,space:·
 
 set diffopt+=vertical
 
-" My snipets
-nnoremap ,html :-1read $HOME/.vim/snippets/skeleto.html<CR>3jwf>a
-
-:map <F2> <ESC>oHola<ESC>jk
-
 function! EchoTest()
     echo "this is a test"
 endfunction
@@ -159,17 +154,10 @@ function! TestThis()
   !export NODE_ENV=test && clear && npx mocha -r 'ts-node/register' % --exit
 endfunction
 
-nnoremap <Leader>t :call TestThis()<CR>
-
 function! BuildThis()
   !clear && npm run build
 endfunction
 
-noremap <Leader>b :call BuildThis()<CR>
-
 command! BufOnly silent! execute "%bd|e#|bd#"
 
-nnoremap <Leader>h <C-w>h
-nnoremap <Leader>j <C-w>j
-nnoremap <Leader>k <C-w>k
-nnoremap <Leader>l <C-w>l
+source $HOME/.vim/keys/maps.vim
