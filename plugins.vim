@@ -5,6 +5,10 @@ Plug 'takac/vim-hardtime'
 Plug 'mhinz/vim-signify'
 "Plug 'vim-scripts/Conque-GDB'
 Plug 'flazz/vim-colorschemes'
+
+"Javascript
+Plug 'honza/vim-snippets'
+Plug 'grvcoelho/vim-javascript-snippets'
 Plug 'pangloss/vim-javascript', {'for': 'javascript'}
 Plug 'mxw/vim-jsx', {'for': 'javascript'}
 Plug 'alvan/vim-closetag'
