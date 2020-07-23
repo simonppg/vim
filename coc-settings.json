@@ -3,5 +3,10 @@
   "eslint.autoFixOnSave": true,
   "emmet.showAbbreviationSuggestions": true,
   "emmet.includeLanguages": {"vue-html": "html", "javascript": "javascriptreact"},
-  "typescript.preferences.importModuleSpecifier": "relative"
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "snippets.extends":{
+    "cpp": ["c"],
+    "javascriptreact": ["javascript"],
+    "typescript": ["javascript"]
+  }
 }
