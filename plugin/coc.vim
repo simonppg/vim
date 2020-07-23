@@ -10,6 +10,7 @@ let g:coc_global_extensions = [
   \'coc-json',
   \'coc-vimlsp',
   \'coc-explorer',
+  \'coc-snippets',
   \'coc-sh']
 
 " TextEdit might fail if hidden is not set.
