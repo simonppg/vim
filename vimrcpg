@@ -1,0 +1,3 @@
+syntax on
+set syntax=dbout
+set nowrap

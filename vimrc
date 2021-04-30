@@ -165,4 +165,6 @@ endfunction
 
 command! BufOnly silent! execute "%bd|e#|bd#"
 
+autocmd BufRead /tmp/psql.edit.* set syntax=sql
+
 source $HOME/.vim/keys/maps.vim
