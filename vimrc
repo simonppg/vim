@@ -2,6 +2,9 @@ source $HOME/.vim/plugins.vim
 
 let mapleader = "\<space>"
 
+nnoremap <silent> <leader> :<c-u>WhichKey '<Space>'<CR>
+nnoremap <silent> <loalleader> :<c-u>WhichKey ','<CR>
+
 filetype plugin indent on
 
 " vim-gitgutter configuration

@@ -1,5 +1,7 @@
 call plug#begin()
 
+Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!']  }
+
 Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'takac/vim-hardtime'
 Plug 'mhinz/vim-signify'
